@@ -42,7 +42,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer",
     icon: web,
   },
   {
@@ -50,11 +50,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Flutter Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data Analyst",
     icon: creator,
   },
 ];
@@ -116,149 +116,158 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "SOFTWARE DEVELOPER",
+    company_name: "FINVESTFx",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Constructed a React Native application with vital API calls for real-time data presentation, search, and filter functions; improved user engagement by 70% with secure authentication and category-specific data organization.",
+      "Orchestrated development of automation scripts with Puppeteer, established APIs, devised complex MongoDB queries, and authored front-end code in React; enhanced software testing efficiency by 45% for a $8+ billion financial institutions.",
+      "Created efficient invoice processing algorithms in Python, Numpy, Pandas and Sklearn which take input in JSON, CSV, and Excel formats with Flask APIs for error management; delivered 98% accurate Pricing and Credit Term Predictions, enhancing financial strategies for businesses.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "ANDROID DEVELOPER INTERN",
+    company_name: "CHAI CUBICLE",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2023 - Jul 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Constructed a food ordering platform with Flutter and Firebase, significantly increasing online customer traffic and contributing to a 45% rise in sales through optimized user experience and real-time order updates.",
+      "Engineered a seamless app experience with features like menu browsing, order placement, Wishlist additions, Google Maps integration, and secure G-Pay transactions; boosted customer engagement by 35% and purchase conversion rates by 20%.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I thought it was impossible to make a website as beautiful as our product, but Vinayak proved me wrong.",
+    name: "Yash Somani",
+    designation: "SDE",
+    company: "Aditya Birla",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Vinayak does.",
+    name: "Abhishek Solanki",
+    designation: "SDE 2",
+    company: "FinvestFx",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "After Vinayak optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Anirudh Gautum",
+    designation: "SDE",
+    company: "FinvestFx",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pro Market Place",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "Delivered a full-stack application with advanced features like search, payment integration, and order optimization, boosting satisfaction by 30% and sales by 18% in the $100+ billion Indian e-commerce market.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "NodeJs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ExpressJs",
         color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/VINAYAKBENI/Projects/tree/master/App%20Dev%20Project/ProMarketPlace",
   },
   {
-    name: "Job IT",
+    name: "SmartStock",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "Developed a Next.js Inventory Management Dashboard, streamlining inventory tracking and analytics with real-time data updates and improved user interface for enhanced operational efficiency.",
     tags: [
       {
-        name: "react",
+        name: "NextJs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Postgres",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "NodeJs",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
+        name: "Tailwind",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "Finanseer",
+    description:
+    "Developed a MERN-based Financial Dashboard App with advanced machine learning for revenue forecasting, reducing data retrieval time by 40% and boosting user engagement by 25%.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://finanseer-eosin.vercel.app/",
   },
 ];
 
