@@ -242,7 +242,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/VINAYAKBENI/SmartStock",
   },
   {
     name: "Finanseer",
