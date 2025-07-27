@@ -15,7 +15,7 @@ import {
   git,
   figma,
   docker,
-  meta,
+  synopsys,
   starbucks,
   tesla,
   shopify,
@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  aiWebBuilder
 } from "../assets";
 
 export const navLinks = [
@@ -42,6 +43,10 @@ export const navLinks = [
 
 const services = [
   {
+    title: "C / C++ Developer",
+    icon: creator,
+  },
+  {
     title: "Full Stack Web Developer",
     icon: web,
   },
@@ -52,11 +57,7 @@ const services = [
   {
     title: "Flutter Developer",
     icon: backend,
-  },
-  {
-    title: "Data Analyst",
-    icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -116,11 +117,23 @@ const technologies = [
 
 const experiences = [
   {
+    title: "R&D ENGINEER",
+    company_name: "SYNOPSYS Inc",
+    icon: synopsys,
+    iconBg: "#383E56",
+    date: "Sep 2025 - Present",
+    points: [
+      "Designed and implemented key modules in C/C++ using OOP principles, improving RTL analysis performance by 15 – 30 % (Avg.) which improved maintainability and scalability for SpyGlass Lint and VC SpyGlass Lint tools.",
+      "Processed and analyzed 10K+ lines of Verilog/SystemVerilog RTL across multiple projects by handling file parsing, OM population, and syntax/warning checks; leveraged GDB for efficient debugging on Linux systems. ",
+      " Delivered 10+ feature enhancements and resolved critical issues by adhering to internal API design policies, ensuring seamless integration with QA and product teams. ",
+    ],
+  },
+  {
     title: "SOFTWARE DEVELOPER",
     company_name: "FINVESTFx",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "Jan 2024 - Present",
+    date: "Jan 2024 - Sep 2024",
     points: [
       "Constructed a React Native application with vital API calls for real-time data presentation, search, and filter functions; improved user engagement by 70% with secure authentication and category-specific data organization.",
       "Orchestrated development of automation scripts with Puppeteer, established APIs, devised complex MongoDB queries, and authored front-end code in React; enhanced software testing efficiency by 45% for a $8+ billion financial institutions.",
@@ -197,7 +210,7 @@ const projects = [
   {
     name: "Pro Market Place",
     description:
-    "Delivered a full-stack application with advanced features like search, payment integration, and order optimization, boosting satisfaction by 30% and sales by 18% in the $100+ billion Indian e-commerce market.",
+      "Delivered a full-stack application with advanced features like search, payment integration, and order optimization, boosting satisfaction by 30% and sales by 18% in the $100+ billion Indian e-commerce market.",
     tags: [
       {
         name: "Flutter",
@@ -220,9 +233,9 @@ const projects = [
     source_code_link: "https://github.com/VINAYAKBENI/Projects/tree/master/App%20Dev%20Project/ProMarketPlace",
   },
   {
-    name: "SmartStock",
+    name: "Vibe AI",
     description:
-    "Developed a Next.js Inventory Management Dashboard, streamlining inventory tracking and analytics with real-time data updates and improved user interface for enhanced operational efficiency.",
+      "Built a modern AI based full-stack website builder app with Next.js, React, TypeScript, and Tailwind CSS, using Prisma, Neon, and PostgreSQL for the backend. Integrated Clerk for auth and CodeRabbit AI and e2b sandbox.",
     tags: [
       {
         name: "NextJs",
@@ -233,21 +246,21 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "NodeJs",
+        name: "Prisma",
         color: "pink-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "Gemini",
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/VINAYAKBENI/SmartStock",
+    image: aiWebBuilder,
+    source_code_link: "https://github.com/VINAYAKBENI/vibe",
   },
   {
     name: "Finanseer",
     description:
-    "Developed a MERN-based Financial Dashboard App with advanced machine learning for revenue forecasting, reducing data retrieval time by 40% and boosting user engagement by 25%.",
+      "Developed a MERN-based Financial Dashboard App with advanced machine learning for revenue forecasting, reducing data retrieval time by 40% and boosting user engagement by 25%.",
     tags: [
       {
         name: "React",

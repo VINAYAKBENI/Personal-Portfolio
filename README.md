@@ -166,6 +166,10 @@ export const navLinks = [
 
 const services = [
   {
+    title: "C/C++ Developer",
+    icon: creator,
+  },
+  {
     title: "Full Stack Web Developer",
     icon: web,
   },
@@ -176,10 +180,6 @@ const services = [
   {
     title: "Flutter Developer",
     icon: backend,
-  },
-  {
-    title: "Data Analyst",
-    icon: creator,
   },
 ];
 

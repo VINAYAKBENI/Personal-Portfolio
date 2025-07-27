@@ -47,15 +47,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a dedicated software developer with strong expertise in JavaScript, TypeScript, 
-        and full-stack technologies like React, Node.js, and MongoDB. 
-        With hands-on experience in mobile development using React Native and Flutter, 
-        I excel in crafting responsive, scalable applications across platforms. 
-        My foundation in data structures, algorithms, and core computer science 
-        subjects enables me to build efficient, user-centered solutions that 
-        address complex challenges. I’m passionate about continuous learning 
-        and collaborating closely with teams to bring innovative ideas to life. 
-        Let's create impactful software together!
+        I'm a dedicated software developer with a strong foundation in JavaScript, TypeScript, and full-stack technologies such as React, Node.js, MongoDB, and PostgreSQL. I have hands-on experience in mobile development using React Native and Flutter, enabling me to build responsive, cross-platform applications.
+        <br />
+        Recently, I've been working with C/C++ and building a new project using Next.js, React, ShadCN UI, Tailwind CSS, Prisma, Neon, PostgreSQL, Clerk, and TypeScript. I'm also integrating AI models running in background using Inggest with platforms like CodeRabbit AI and e2b sandbox to create intelligent, modern web experiences.
+        <br />
+        My background in data structures, algorithms, and core computer science principles allows me to develop efficient, scalable, and user-focused solutions. I'm passionate about continuous learning and love collaborating with teams to turn innovative ideas into impactful software.
+        <br />
+        Let’s build something great together.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
